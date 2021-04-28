@@ -1,6 +1,6 @@
 import pytest
 
-from algorithms.sort import selection_sort
+from algorithms.sort.selection_sort import selection_sort
 
 
 @pytest.mark.parametrize('input_list,result', [

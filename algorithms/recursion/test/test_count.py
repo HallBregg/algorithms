@@ -1,6 +1,6 @@
 import pytest
 
-from algorithms.recursion import r_count
+from algorithms.recursion.count import r_count
 
 
 @pytest.mark.parametrize('input_list,expected', [

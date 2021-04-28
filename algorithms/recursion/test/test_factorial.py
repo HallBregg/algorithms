@@ -1,7 +1,7 @@
 import pytest
 
 
-from algorithms.recursion import factorial
+from algorithms.recursion.factorial import factorial
 
 
 @pytest.mark.parametrize('input,expected', [

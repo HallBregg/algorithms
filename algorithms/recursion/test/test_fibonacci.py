@@ -1,6 +1,6 @@
 import pytest
 
-from algorithms.recursion import fibonacci
+from algorithms.recursion.fibonacci import fibonacci
 
 
 @pytest.mark.parametrize('input,expected', [

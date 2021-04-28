@@ -1,6 +1,6 @@
 import pytest
 
-from algorithms.iterative import factorial
+from algorithms.iterative.factorial import factorial
 
 
 @pytest.mark.parametrize('input,expected', [
